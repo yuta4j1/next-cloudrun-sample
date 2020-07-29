@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:12.18.3 AS builder
+FROM mhart/alpine-node:12.18.3
 
 WORKDIR /
 COPY . .

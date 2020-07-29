@@ -5,7 +5,8 @@
   "author": "yuta4j1",
   "license": "MIT",
   "scripts": {
-    "dev": "next -p 1234"
+    "dev": "next dev -p 1234",
+    "build": "next start -p 1234"
   },
   "dependencies": {
     "next": "^9.4.4",
